@@ -1,0 +1,13 @@
+html {
+    font-size: 16px;
+}
+
+/* Navbar Design */
+nav{
+    width:1600px ;
+    border: 2px solid red;
+    display: flex;
+}
+ul{
+
+}
