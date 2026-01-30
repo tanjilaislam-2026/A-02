@@ -27,16 +27,11 @@ nav{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-span{
-   
- 
-  
-    
-}
 
 
 
-.nav-link{ 
+
+nav>div{ 
     display: flex;
     justify-content: space-between;
 gap: 32px;
@@ -45,13 +40,31 @@ font-weight: 500px;
 
 }
 
-.nav-btn{
+nav>button{
     padding: 12px;
     border-radius: 20px;
     background: linear-gradient(to right,#F7E93F,#FB09B4, #9100F8  );
     color: white;
     font-size: 12px;
     font-weight:600px ;
-    font-family: ;
+}
+
+nav>img{
+   
+    display: none;
+}
+
+/* responsive design */
+
+
+@media screen and (max-width:576px) {
+   nav>button, nav>div{
+        display: none;
+    }
+
+    nav>img{
+    
+    display:inline;
+}
 
 }
