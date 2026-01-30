@@ -1,6 +1,6 @@
-/* html {
+html {
     font-size: 16px;
-} */
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
@@ -28,7 +28,16 @@ nav{
     padding-bottom: 30px;
 }
 
+nav>p{
+    font-size:xx-large;
+    font-weight: bold;
+}
 
+span{
+    background: linear-gradient(to top right ,#F7E93F 1% ,#FB09B4 51%, #9100F8 100% );
+  background-clip:text;
+ color:transparent;
+}
 
 
 nav>div{ 
@@ -43,7 +52,7 @@ font-weight: 500px;
 nav>button{
     padding: 12px;
     border-radius: 20px;
-    background: linear-gradient(to right,#F7E93F,#FB09B4, #9100F8  );
+    background: linear-gradient(to right,#F7E93F  ,#FB09B4 , #9100F8  );
     color: white;
     font-size: 12px;
     font-weight:600px ;
@@ -54,6 +63,95 @@ nav>img{
     display: none;
 }
 
+/* footer design */
+ footer{ border: 1px solid yellow;
+    width: 100%;
+    max-width: 1600px;
+    background-image:url(./assets/footer-bg.png) ; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+height: 412px;
+color: white;
+
+ }
+
+ footer>section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+padding-bottom: 120px;
+}
+
+.footer-wave p{
+   
+    font-size: 3.5rem;
+    font-weight:bold;
+
+}
+
+.footer-img {
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 50%;
+    gap: 30px;
+    padding-top: 30px;
+    padding-left:40px ;
+}
+.img1{
+    display: flex;
+flex-direction: row;
+gap: 5px;
+    align-items: center;
+}
+.img1 p{
+     font-size: 16px;
+    font-weight: 100px;
+    opacity: 60%;
+}
+
+
+
+
+
+
+.copy{ 
+    padding-top: 34px;
+    font-size: 16px;
+    font-weight: 400px;
+    opacity: 60%;
+    color: #FAFAFA;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* responsive design */
 
 
@@ -63,7 +161,7 @@ nav>img{
     }
 
     nav>img{
-    
+        padding-right: .8rem; 
     display:inline;
 }
 
