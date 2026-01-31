@@ -62,18 +62,15 @@ nav>img{
 }
 
 /* About section design */
-.about-sec{
-   
+
+ .about-sec{
+   border: 1px solid yellow;
     background-color: #1A0B2E;
     max-width: 1600px;
     width: 100%;
     padding: 50px 200px 120px 200px;
     color: white;
-    
-}
-
-
-
+    }
 
 .ap{
     text-align: center;
@@ -102,10 +99,6 @@ padding-bottom: 16px;
 
 
 
-
-
-
-
 /* Why Section design */
 
 .W-sec{
@@ -114,8 +107,7 @@ max-width: 1600px;
   padding: 120px 200px; 
 background-color: #230E3D;
 color: #FFFFFF;
-/* text-align: center;
-} */
+
 }
 
 .wt{
@@ -127,14 +119,10 @@ color: #FFFFFF;
      gap: 30px;
 }
 
-
-
-
 .box{
    background-color:#351165 ;
     padding: 40px;
     border-radius: 30px;
-
 }
 
 h3{ 
@@ -240,10 +228,18 @@ nav>button, nav>div{
 
 /* About section design */
 .about-sec{
+    padding: 40px 20px 40px 20px;
 
 }
-
-
+.hr-line{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    }
+.i-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
 
 
 
@@ -252,9 +248,6 @@ nav>button, nav>div{
 .W-sec{
 
   padding: 40px; }
-
-
-
 
 .wt{
    padding-bottom: 16px;
