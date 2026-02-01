@@ -28,7 +28,7 @@ nav{
 }
 
 nav>p{
-    font-size:xx-large;
+    font-size:45px;
     font-weight: bold;
 }
 
@@ -64,17 +64,21 @@ nav>img{
 /* About section design */
 
  .about-sec{
-   border: 1px solid yellow;
-    background-color: #1A0B2E;
+     background-color: #1A0B2E;
     max-width: 1600px;
     width: 100%;
     padding: 50px 200px 120px 200px;
     color: white;
     }
 
-.ap{
+.ap{ 
     text-align: center;
-    ;
+    
+}
+.caption{
+font-size: 48px;
+font-weight: 600;
+
 }
 .para{
     padding-top: 16px;
@@ -110,9 +114,10 @@ color: #FFFFFF;
 
 }
 
-.wt{
+.wt{ font-weight: 700;
     text-align: center;
     padding-bottom: 40px;
+    font-size: 48px                              ;
 }
 
 .container{
@@ -150,6 +155,27 @@ h3{
     gap: 30px;
     padding-top: 30px;
     }
+
+/* Featrued Episodes */
+
+.featured{
+    width: 100%;
+    max-width: 1600px;
+    background-color: #1A0B2E;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* footer design */
