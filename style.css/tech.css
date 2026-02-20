@@ -38,7 +38,6 @@ nav>div{
 gap: 32px;
 font-size: 16px;
 font-weight: 500px;
-
 }
 
 .link-container a{
@@ -58,4 +57,94 @@ nav>button,.listen-btn{
 nav>img{
    display: none;
 }
+
+/* Banner section */
+
+.hero-section {
+    background-image: url(../assets/hero-bg.png);
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    gap: 40px;
+    padding:124px 525px 80px 525px ;
+}
+
+.hero-img{
+    position: relative;
+   }
+
+.hero-circle{
+     position:relative;
+      width: 100%;
+    max-width: 400px;  
+    height: auto;}
+
+.microphone{
+    position:absolute;
+     top: 20%;
+    right: 32%;
+    width: 100%;
+    max-width: 125px;
+    transition: transform 1s ; }  
+
+.microphone:hover{
+     transform: rotate(360deg);}
+
+
+.badge{
+    color: #1A0B2E;
+    background-color: #00FF88;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 16px  8px 16px;
+      position: absolute;
+    top: 10px;  
+     right: 10px;
+   z-index: 1;
+  box-shadow: 0 0 20px #00FF88;}
+
+.hero-para{
+    text-align: center;
+    color: white;}
+
+.hero-tech{
+    font-size: 3.75rem;
+    font-weight: 800;}
+
+.hero-p{ padding-top: 8px;
+    padding-bottom: 24px;
+    font-size: 1rem;
+    font-weight: 400;
+    opacity: 80%;}
+
+.hero-btn{
+    display: flex;
+    justify-content: center;
+    gap: 8px;}
+
+.listen-btn{
+     display: flex;
+flex-direction: row;
+gap: 8px;
+    align-items: center;
+    border-radius: 50px;
+    padding: 12px 20px 12px 20px ;}
+
+.sub-btn{
+ padding: 12px 20px 12px 20px ;
+    border-radius: 50px;
+    border:1px solid #00FF88 ;
+    background-color: transparent;
+  color:#00FF88 ;
+    font-size: 12px;
+    font-weight:600px ;
+    display: flex;
+flex-direction: row;
+gap: 8px;
+    align-items: center;}
+
 

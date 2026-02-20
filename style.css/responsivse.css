@@ -11,4 +11,39 @@ nav>button, nav>div{
         padding-right: .8rem; 
     display:inline;
 }
+/* Banner section */
+
+.hero-section {
+    width: 100%;
+    gap: 24px;
+    padding:40px 20px 40px 20px ;
+}
+
+.hero-circle{
+     max-width: 250px;
+     height: auto;}
+
+.microphone{
+    position:absolute;
+     top: 23%;
+    right: 32%;
+    width: 100%;
+    max-width: 90px;
+    transition: transform 1s ; }  
+
+ .badge{
+    font-size: 16px;
+}
+.hero-tech{
+    font-size: 2.75rem;
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+
 }
