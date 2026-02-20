@@ -4,13 +4,12 @@
 /* navbar */
 
 nav>button, nav>div{
-        display: none;
-    }
+        display: none;}
 
     nav>img{
         padding-right: .8rem; 
-    display:inline;
-}
+    display:inline;}
+    
 /* Banner section */
 
 .hero-section {
@@ -32,14 +31,21 @@ nav>button, nav>div{
     transition: transform 1s ; }  
 
  .badge{
-    font-size: 16px;
-}
+    font-size: 16px;}
 .hero-tech{
     font-size: 2.75rem;
-    font-weight: 800;
-}
+    font-weight: 800;}
 
-
+/* About section design */
+.about-sec{
+    padding: 40px 20px 40px 20px;}
+.hr-line{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    }
+.i-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);}
 
 
 

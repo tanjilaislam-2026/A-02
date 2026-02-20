@@ -18,32 +18,27 @@ nav{
     background-color: #1A0B2E;
     color:white;
     padding-top: 30px;
-    padding-bottom: 30px;
-}
+    padding-bottom: 30px;}
 
 nav>p{ 
     font-size:45px;
-    font-weight: bold;
-}
+    font-weight: bold;}
 
 span{
     background: linear-gradient(to top right ,#F7E93F 1% ,#FB09B4 51%, #9100F8 100% );
   background-clip:text;
- color:transparent;
-}
+ color:transparent;}
 
 nav>div{ 
     display: flex;
     justify-content: space-between;
 gap: 32px;
 font-size: 16px;
-font-weight: 500px;
-}
+font-weight: 500px;}
 
 .link-container a{
     text-decoration: none;
-    color: white;
-}
+    color: white;}
 
 nav>button,.listen-btn{
     padding: 12px;
@@ -51,12 +46,10 @@ nav>button,.listen-btn{
     background: linear-gradient(to right,#F7E93F  ,#FB09B4 , #9100F8  );
     color: white;
     font-size: 12px;
-    font-weight:600px ;
-}
+    font-weight:600px ;}
 
 nav>img{
-   display: none;
-}
+   display: none;}
 
 /* Banner section */
 
@@ -69,12 +62,10 @@ nav>img{
     justify-items: center;
     align-items: center;
     gap: 40px;
-    padding:124px 525px 80px 525px ;
-}
+    padding:124px 525px 80px 525px ;}
 
 .hero-img{
-    position: relative;
-   }
+    position: relative;}
 
 .hero-circle{
      position:relative;
@@ -92,7 +83,6 @@ nav>img{
 
 .microphone:hover{
      transform: rotate(360deg);}
-
 
 .badge{
     color: #1A0B2E;
@@ -147,4 +137,37 @@ flex-direction: row;
 gap: 8px;
     align-items: center;}
 
+/* About section design */
 
+ .about-sec{
+     background-color: #1A0B2E;
+    max-width: 1600px;
+    width: 100%;
+    padding: 50px 200px 120px 200px;
+    color: white;}
+.ap{ 
+    text-align: center;}
+.caption{
+font-size: 3rem;
+font-weight: 600;}
+.para{
+    opacity: 80%;
+    padding-top: 16px;
+    line-height: 24px;}
+
+.hr-line{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    opacity: 10%;
+}
+.i-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+}
+.items{
+    font-size: 48px;
+    font-weight: 900;
+color: #00FF88;
+padding-bottom: 16px;
+}
