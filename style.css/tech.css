@@ -215,7 +215,102 @@ h3{
     padding-top: 30px;
     }
 
+/* Featrued Episodes */
 
+.featured{
+  background-color: #1A0B2E;
+    color: white;
+    text-align: center;
+    padding: 120px 200px 120px 200px;
+}
+
+.card{
+   
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 40px;
+    gap: 30px;
+}
+
+.card iframe{ width: 100%;
+    display: block;
+    height: 250px;
+    border-top-right-radius: 30px;
+    border-top-left-radius:30px ;
+}
+.v-container{ padding: 24px;
+     background-color: #250D44;
+     border-bottom-right-radius: 30px;
+    border-bottom-left-radius:30px ;
+}
+
+
+.video-caption{
+    padding-top: 24px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align:left;
+}
+.video-description{
+    opacity: 60%;
+    padding-top: 12px;
+    padding-bottom:  20px;
+    text-align: left;
+}
+
+.duration{
+display: flex;
+gap:7px;
+color: #00FF88;
+}
+
+/* meet the host */
+
+
+
+.host-caption {
+    font-size: 3rem;
+font-weight: 600;
+padding-top:120px ;
+padding-bottom: 40px;
+
+}
+.host-content{
+    display: flex;
+    padding: 40px;
+    background-color:#351165 ;
+    border-radius: 25px;
+    gap: 24px;
+}
+
+.host-paragraph{
+    text-align: left;
+}
+
+.host-paragraph{
+    
+    text-align: left;
+}
+
+.host-paragraph p{
+    padding-bottom: 16px;
+    padding-top: 16px;
+    opacity:60% ;
+     line-height: 24px;
+}
+
+.host-icon{
+    display: flex;
+   gap: 8px;
+    
+}
+
+.h-icon{
+    border:1px solid #533C72;
+    border-radius: 20px;
+    padding:15px;
+   
+}
 
 
 

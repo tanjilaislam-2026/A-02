@@ -65,6 +65,70 @@ nav>button, nav>div{
     display: grid;
     grid-template-columns: repeat(1,1fr);}
 
+    /* Featrued Episodes */
+
+.featured{
+    padding: 40px 20px 40px 20px;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding-top: 24px;
+    gap: 16px;
+}
+
+
+
+.v-container{
+    padding: 16px;
+}
+.video-caption{
+   
+    padding-top: 16px;
+    font-size: 20px;
+}
+
+.video-caption{
+    padding-top: 16px;
+    font-size: 20px;
+}
+.video-description{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+}
+
+.host-caption {
+   
+padding-top:60px ;
+padding-bottom: 24px;
+
+}
+
+.host-content{
+    padding: 24px;
+   display: grid;
+   grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+    align-items:center;
+    gap: 16px;
+}
+
+.host-paragraph {
+     text-align: center;
+     display: grid;
+     justify-items: center;
+}
+
+.host-icon{
+    display: flex;
+    justify-items: center;
+   gap: 8px;
+    
+}
+
+
 /* footer design */
  footer{
    background-size: cover;
