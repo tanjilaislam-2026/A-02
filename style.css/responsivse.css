@@ -9,7 +9,7 @@ nav>button, nav>div{
     nav>img{
         padding-right: .8rem; 
     display:inline;}
-    
+
 /* Banner section */
 
 .hero-section {
@@ -48,8 +48,16 @@ nav>button, nav>div{
     grid-template-columns: repeat(2,1fr);}
 
 
-
-
+/* footer design */
+ footer{
+   background-size: cover;
+ }
+    
+ .footer-img{
+    display:grid;
+    gap:20px;
+    grid-template-columns: repeat(2,1fr);
+    } 
 
 
 }
