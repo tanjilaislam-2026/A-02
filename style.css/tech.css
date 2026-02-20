@@ -172,6 +172,49 @@ color: #00FF88;
 padding-bottom: 16px;
 }
 
+/* Why Section design */
+
+.W-sec{
+width: 100%;
+max-width: 1600px;
+  padding: 120px 200px; 
+background-color: #230E3D;
+color: #FFFFFF;}
+
+.wt{ font-weight: 700;
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 48px;  }                            
+
+.container{
+     gap: 30px;}
+
+.box{
+   background-color:#351165 ;
+    padding: 40px;
+    border-radius: 30px;}
+
+h3{ 
+    padding-bottom: 16px;
+    padding-top: 16px;}
+
+#box1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;}
+.p1{ padding-top: 100px;
+    grid-row: span 2;}
+  
+.p2,.p3,.p4{
+    grid-column: span 2;}
+
+#box2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    padding-top: 30px;
+    }
+
 
 
 

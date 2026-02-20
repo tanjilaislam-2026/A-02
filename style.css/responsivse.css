@@ -47,6 +47,23 @@ nav>button, nav>div{
     display: grid;
     grid-template-columns: repeat(2,1fr);}
 
+/* Why Section design */
+
+.W-sec{
+
+  padding: 40px; }
+
+.wt{ font-size: 32px;
+   padding-bottom: 16px;
+    }
+
+#box1{
+    display: grid;
+        grid-template-columns: repeat(1,1fr)}
+ 
+#box2{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);}
 
 /* footer design */
  footer{
