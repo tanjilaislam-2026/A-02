@@ -1,0 +1,14 @@
+
+@media screen and (max-width:576px) {
+ 
+/* navbar */
+
+nav>button, nav>div{
+        display: none;
+    }
+
+    nav>img{
+        padding-right: .8rem; 
+    display:inline;
+}
+}
