@@ -9,7 +9,6 @@ html {
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
-
 /* Navbar Design */
 nav{
      display: flex;
@@ -45,6 +44,7 @@ nav>button,.listen-btn{
     border-radius: 20px;
     background: linear-gradient(to right,#F7E93F  ,#FB09B4 , #9100F8  );
     color: white;
+    cursor: pointer;
     font-size: 12px;
     font-weight:600px ;}
 
@@ -61,8 +61,8 @@ nav>img{
     display: grid;
     justify-items: center;
     align-items: center;
-    gap: 40px;
-    padding:124px 525px 80px 525px ;}
+    gap: 40px; padding-top: 50px;
+}
 
 .hero-img{
     position: relative;}
@@ -114,12 +114,13 @@ nav>img{
 .hero-btn{
     display: flex;
     justify-content: center;
-    gap: 8px;}
+    gap: 8px;
+}
 
 .listen-btn{
      display: flex;
 flex-direction: row;
-gap: 8px;
+gap: 8px; 
     align-items: center;
     border-radius: 50px;
     padding: 12px 20px 12px 20px ;}
@@ -134,7 +135,7 @@ gap: 8px;
     font-weight:600px ;
     display: flex;
 flex-direction: row;
-gap: 8px;
+gap: 8px; cursor: pointer;
     align-items: center;}
 
 /* About section design */
@@ -221,7 +222,7 @@ h3{
   background-color: #1A0B2E;
     color: white;
     text-align: center;
-    padding: 120px 200px 120px 200px;
+    padding: 100px 150px 100px 150px;
 }
 
 .card{
@@ -243,8 +244,6 @@ h3{
      border-bottom-right-radius: 30px;
     border-bottom-left-radius:30px ;
 }
-
-
 .video-caption{
     padding-top: 24px;
     font-size: 24px;
@@ -265,9 +264,6 @@ color: #00FF88;
 }
 
 /* meet the host */
-
-
-
 .host-caption {
     font-size: 3rem;
 font-weight: 600;
@@ -301,24 +297,14 @@ padding-bottom: 40px;
 
 .host-icon{
     display: flex;
-   gap: 8px;
-    
+   gap: 8px;   
 }
 
 .h-icon{
     border:1px solid #533C72;
     border-radius: 20px;
     padding:15px;
-   
 }
-
-
-
-
-
-
-
-
 
 /* footer design */
  

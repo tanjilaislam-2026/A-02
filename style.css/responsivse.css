@@ -1,4 +1,5 @@
 
+
 @media screen and (max-width:576px) {
  
 /* navbar */
@@ -70,21 +71,16 @@ nav>button, nav>div{
 .featured{
     padding: 40px 20px 40px 20px;
 }
-
 .card{
     display: grid;
     grid-template-columns: repeat(1,1fr);
     padding-top: 24px;
     gap: 16px;
 }
-
-
-
 .v-container{
     padding: 16px;
 }
 .video-caption{
-   
     padding-top: 16px;
     font-size: 20px;
 }
@@ -95,15 +91,12 @@ nav>button, nav>div{
 }
 .video-description{
     padding-top: 8px;
-    padding-bottom: 8px;
-    
+    padding-bottom: 8px;    
 }
 
-.host-caption {
-   
+.host-caption {   
 padding-top:60px ;
 padding-bottom: 24px;
-
 }
 
 .host-content{
@@ -142,3 +135,4 @@ padding-bottom: 24px;
 
 
 }
+
